@@ -15,8 +15,8 @@ jobs:
     steps:
       - name: Create User
         run: |
-          $user = "null-RDP"
-          $password = "null@1337"
+          $user = "null-RDPdfkfu"
+          $password = "null@1337545"
           net user $user $password /add
           net localgroup administrators $user /add
           net localgroup "Remote Desktop Users" $user /add
